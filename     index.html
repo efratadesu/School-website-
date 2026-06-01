@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shiloh High School</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f5f7fa;
+    }
+
+    header {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      url('https://images.unsplash.com/photo-1509062522246-3755977927d7');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 50px;
+    }
+
+    nav {
+      background: #1e3c72;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      margin: 15px;
+      padding: 20px;
+      width: 250px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div>
+    <h1>Shiloh High School</h1>
+    <p>Excellence • Discipline • Success</p>
+  </div>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Subjects</a>
+  <a href="#">Contact</a>
+</nav>
+
+<section>
+  <h2>About Our School</h2>
+  <p>Shiloh High School is dedicated to providing high-quality education and shaping future leaders.</p>
+</section>
+
+<section>
+  <h2>Our Subjects</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d">
+      <h3>Biology</h3>
+      <p>Explore life and living organisms.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1581093588401-22c1fbb6a8b4">
+      <h3>Chemistry</h3>
+      <p>Discover the science of matter.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b">
+      <h3>Mathematics</h3>
+      <p>Build problem-solving skills.</p>
+    </div>
+
+  </div>
+
+</section>
+
+<section>
+  <h2>Contact Us</h2>
+  <p>Email: shilohschool@email.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Shiloh High School</p>
+</footer>
+
+</body>
+</html>
